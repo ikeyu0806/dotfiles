@@ -1,1 +1,2 @@
-/Users/ikegayayuuki/.vimrc
+set number
+set noautoindent
