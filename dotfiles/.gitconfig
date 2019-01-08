@@ -9,3 +9,6 @@
     br = branch
     pl = pull
     ps = push
+
+[core]
+    excludesfile = ~/.gitignore_global
