@@ -11,4 +11,4 @@
     ps = push
 
 [core]
-    excludesfile = ~/.gitignore_global
+	excludesfile = /Users/yuki.ikegaya/.gitignore_global
