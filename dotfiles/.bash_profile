@@ -1,5 +1,7 @@
+# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
+export PATH="/usr/local/bin/rbenv:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
+
 eval "$(rbenv init -)"
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
 
 if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
