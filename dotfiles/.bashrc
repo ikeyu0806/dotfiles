@@ -2,6 +2,7 @@
 alias ll="ls -la"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
+alias c='clear'
 
 # プロンプト
 function parse_git_branch {
