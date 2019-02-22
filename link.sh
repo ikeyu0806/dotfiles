@@ -4,14 +4,12 @@ ln -sf ~/dotfiles/dotfiles/.bashrc ~/.bashrc
 ln -sf ~/dotfiles/dotfiles/.vimrc ~/.vimrc
 ln -sf ~/dotfiles/dotfiles/.gitconfig ~/.gitconfig
 ln -sf ~/dotfiles/dotfiles/.gitignore_global ~/.gitignore_global
+ln -sf ~/dotfiles/dotfiles/.tmux.conf ~/.tmux.conf
 
-if [ -e ~/Library/Application\ Support/Code/User ]; then
-    cd ~/Library/Application\ Support/Code/User
+for extension in `cat ~/dotfiles/vscode/vscode_extensions.txt`; do
+    code --install-extension $extension
+done
 
-  for extension in `cat ~/dotfiles/vscode/extensions.txt`; do
-      code --install-extension $extension
-  done
-fi
 
 cat << EOS
 設定ファイルを置き換えました！
