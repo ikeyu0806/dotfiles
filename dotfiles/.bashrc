@@ -4,6 +4,9 @@ alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias c='clear'
 
+# 環境変数
+export GEM_HOME=/Users/yuki.ikegaya/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
+
 # プロンプト
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
