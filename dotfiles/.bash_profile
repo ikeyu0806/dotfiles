@@ -6,3 +6,4 @@ eval "$(rbenv init -)"
 if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
 fi
+export EDITOR="vi"
