@@ -3,6 +3,10 @@ alias ll="ls -la"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias c='clear'
+alias gi="git init"
+alias gs="git status" 
+alias ga="git add"
+alias gcm="git commit -m"
 
 # 環境変数
 export GEM_HOME=/Users/yuki.ikegaya/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
