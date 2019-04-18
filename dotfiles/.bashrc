@@ -3,6 +3,7 @@ alias ll="ls -la"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias c="clear"
+alias be="bundle exec"
 alias gi="git init"
 alias gck="git checkout"
 alias gs="git status"
@@ -14,7 +15,7 @@ alias gpl="git pull"
 alias gg="git grep"
 
 # 環境変数
-export GEM_HOME=/Users/yuki.ikegaya/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
+export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 
 # プロンプト
 function parse_git_branch {
