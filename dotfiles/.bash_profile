@@ -1,9 +1,10 @@
-# export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
-export PATH="/usr/local/bin/rbenv:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:"
-
-eval "$(rbenv init -)"
-
 if [ -f ~/.bashrc ] ; then
 . ~/.bashrc
 fi
 export EDITOR="vi"
+export PATH="~/.ruby-version:$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/.ndenv/bin:$PATH"
+eval "$(ndenv init -)"
+eval "$(rbenv init -)"
+
+# mv ~/.ruby-version ~/.ruby-version.bk
