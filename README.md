@@ -1,6 +1,6 @@
 # dotfiles
 
-### メモ
-`code --list-extensions`でvscodeの拡張機能一覧出力
+### memo
+Output a list of vscode extended functions with `code --list-extensions`
 
-現状codeコマンドはパス通してあること前提
+It is assumed that the `code` command is passed
