@@ -1,4 +1,3 @@
-# alias
 alias ll="ls -la"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
@@ -13,8 +12,8 @@ alias gbr="git branch"
 alias gps="git push"
 alias gpl="git pull"
 alias gg="git grep"
+alias glg="git log --graph --pretty=oneline"
 
-# 環境変数
 export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 export HISTSIZE=100000
 
