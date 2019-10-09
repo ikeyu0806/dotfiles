@@ -14,6 +14,7 @@ alias gpl="git pull"
 alias gg="git grep"
 alias glg="git log --graph --pretty=oneline"
 alias glga="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative"
+alias gf="git diff"
 
 export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 export HISTSIZE=100000
