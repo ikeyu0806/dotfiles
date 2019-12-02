@@ -20,3 +20,4 @@ export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 export HISTSIZE=100000
 
 eval "$(starship init bash)"
+eval "$(ssh-add ~/.ssh/id_rsa)"
