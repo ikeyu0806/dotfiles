@@ -17,6 +17,7 @@ alias glga="git log --graph --all --pretty=format:'%Cred%h%Creset -%C(yellow)%d%
 alias gf="git diff"
 alias gcp="git cherry-pick"
 alias gr="git reset"
+alias hi="history"
 export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 export HISTSIZE=100000
 
