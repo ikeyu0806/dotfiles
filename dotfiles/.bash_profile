@@ -5,6 +5,7 @@ export EDITOR="vi"
 export PATH="~/.ruby-version:$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/.ndenv/bin:$PATH"
 export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
+export PATH="$HOME/.pyenv/shims:$PATH"
 eval "$(ndenv init -)"
 eval "$(rbenv init -)"
 
