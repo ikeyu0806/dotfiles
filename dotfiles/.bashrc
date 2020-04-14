@@ -1,4 +1,4 @@
-alias ll="ls -la"
+alias ll="ls -ltrahG"
 alias dl="cd ~/Downloads"
 alias dt="cd ~/Desktop"
 alias c="clear"
