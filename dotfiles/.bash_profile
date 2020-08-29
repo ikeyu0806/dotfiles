@@ -9,7 +9,7 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 # eval "$(ndenv init -)"
-# eval "$(rbenv init -)"
+eval "$(rbenv init -)"
 
 # mv ~/.ruby-version ~/.ruby-version.bkexport PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # 壊れたとき
