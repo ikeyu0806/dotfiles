@@ -8,6 +8,8 @@ export PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # export PATH="$HOME/.pyenv/shims:$PATH"
 export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
+export PATH="$HOME/Library/Android/sdk:$PATH"
+export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 # eval "$(ndenv init -)"
 eval "$(rbenv init -)"
 
