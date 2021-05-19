@@ -21,6 +21,9 @@ alias gf="git diff"
 alias gcp="git cherry-pick"
 alias gr="git reset"
 alias hi="history"
+alias d="docker"
+alias dc="docker-compose"
+
 export GEM_HOME=~/.rbenv/versions/2.5.1/lib/ruby/gems/2.5.1
 export HISTSIZE=100000
 eval "$(direnv hook bash)"
