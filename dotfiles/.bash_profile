@@ -12,6 +12,7 @@ export PATH="$HOME/Library/Android/sdk:$PATH"
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
 # eval "$(ndenv init -)"
 eval "$(rbenv init -)"
+eval "$(jump shell)"
 
 # mv ~/.ruby-version ~/.ruby-version.bkexport PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # 壊れたとき
