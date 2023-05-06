@@ -17,3 +17,4 @@ eval "$(jump shell)"
 # mv ~/.ruby-version ~/.ruby-version.bkexport PATH="/usr/local/opt/mysql@5.7/bin:$PATH"
 # 壊れたとき
 # export PATH=/bin:/usr/bin:/usr/local/bin:/sbin:/usr/sbin
+. "$HOME/.cargo/env"

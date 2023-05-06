@@ -31,3 +31,4 @@ eval "$(anyenvinit)"
 
 eval "$(starship init bash)"
 eval "$(ssh-add ~/.ssh/id_rsa)"
+. "$HOME/.cargo/env"
