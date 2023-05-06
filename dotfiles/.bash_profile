@@ -10,6 +10,8 @@ export GOPATH="$HOME/.go"
 export PATH="$GOPATH/bin:$PATH"
 export PATH="$HOME/Library/Android/sdk:$PATH"
 export PATH="$HOME/Library/Android/sdk/platform-tools:$PATH"
+# nodeはnodebrewでインストールする前提
+export PATH="$HOME/.nodebrew/current/bin:$PATH"
 # eval "$(ndenv init -)"
 eval "$(rbenv init -)"
 eval "$(jump shell)"
