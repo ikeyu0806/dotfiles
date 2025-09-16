@@ -26,6 +26,10 @@ alias dc="docker-compose"
 
 eval "$(starship init zsh)"
 
+# history cmd
+export HISTSIZE=10000
+export SAVEHIST=100000
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f '/Users/ikegaya_y/Downloads/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/ikegaya_y/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
